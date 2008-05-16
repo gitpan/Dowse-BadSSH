@@ -1,0 +1,21 @@
+---
+abstract: 'dowse for bad SSH keys on a system'
+author:
+  - 'Sam Vilain <samv@cpan.org>'
+build_requires:
+  File::Path: 0
+  File::Spec: 0
+  File::Temp: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.72'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: Dowse-BadSSH
+no_index:
+  directory:
+    - inc
+requires:
+  perl: 5.004004
+version: 0.02

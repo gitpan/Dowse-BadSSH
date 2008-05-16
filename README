@@ -1,0 +1,15 @@
+run from here as:
+
+  dowkd=`pwd`
+
+  perl $dowkd/bin/dowkd.pl
+
+You can re-use the above command as you cd around the target system.
+
+If you checked this out of git, you won't have anything under inc/
+First, get a recent Module::Install and then:
+
+  perl Makefile.PL
+  make manifest
+  make dist
+

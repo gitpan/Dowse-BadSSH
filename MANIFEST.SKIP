@@ -1,0 +1,8 @@
+^\.git
+.gz$
+.tar$
+~$
+.orig$
+.bak$
+.old$
+^Dowse-(Bad)?SSH
