@@ -4,6 +4,10 @@ run from here as:
 
   perl $dowkd/bin/dowkd.pl
 
+To clean your system:
+
+  perl $dowkd/bin/dowkd.pl all-ssh -R -f
+
 You can re-use the above command as you cd around the target system.
 
 If you checked this out of git, you won't have anything under inc/
@@ -13,3 +17,7 @@ First, get a recent Module::Install and then:
   make manifest
   make dist
 
+You might need to do this to make it bundle a File::Spec which will
+work with the target version of Perl.
+
+Note: git is at git://git.catalyst.net.nz/Dowse-BadSSH.git

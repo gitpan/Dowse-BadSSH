@@ -5,4 +5,6 @@
 .orig$
 .bak$
 .old$
+blib\b
+pm_to_blib$
 ^Dowse-(Bad)?SSH

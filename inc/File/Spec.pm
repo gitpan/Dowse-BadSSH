@@ -4,8 +4,7 @@ package File::Spec;
 use strict;
 use vars qw(@ISA $VERSION);
 
-$VERSION = '3.2501';
-$VERSION = eval $VERSION;
+$VERSION = '0.87';
 
 my %module = (MacOS   => 'Mac',
 	      MSWin32 => 'Win32',
@@ -13,10 +12,8 @@ my %module = (MacOS   => 'Mac',
 	      VMS     => 'VMS',
 	      epoc    => 'Epoc',
 	      NetWare => 'Win32', # Yes, File::Spec::Win32 works on NetWare.
-	      symbian => 'Win32', # Yes, File::Spec::Win32 works on symbian.
-	      dos     => 'OS2',   # Yes, File::Spec::OS2 works on DJGPP.
+              dos     => 'OS2',   # Yes, File::Spec::OS2 works on DJGPP.
 	      cygwin  => 'Cygwin');
-
 
 my $module = $module{$^O} || 'Unix';
 
@@ -27,4 +24,3 @@ require "File/Spec/$module.pm";
 
 __END__
 
-#line 336

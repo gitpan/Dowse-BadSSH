@@ -4,7 +4,7 @@ use inc::Module::Install;
 name            ("Dowse-BadSSH");
 abstract        ("dowse for bad SSH keys on a system");
 author          ("Sam Vilain <samv\@cpan.org>");
-version         (0.02);
+version         (0.03);
 license         ("perl");
 
 requires        ("perl" => 5.004004);  # send me bug reports if this is wrong
