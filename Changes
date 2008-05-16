@@ -1,0 +1,13 @@
+
+Version 0.05:
+   - Protect from a usage error
+   - check for the proper ssh host filename
+   - go back to perl 5.10.0 versions of File::Temp etc
+
+Version 0.04:
+   - REALLY fix the -r bug.  Ho hum.
+
+Version 0.03:
+   - the '-r' option was removing the whole line, rather than
+     commenting it out.  whoops.
+   - bundle File/Spec.pm etc from perl 5.8.4

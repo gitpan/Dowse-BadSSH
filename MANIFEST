@@ -1,5 +1,6 @@
 bin/dowkd.pl
 bin/dowkd.pl.gz.asc
+Changes
 inc/File/Path.pm
 inc/File/Spec.pm
 inc/File/Temp.pm
