@@ -1,4 +1,7 @@
 
+Version 0.06:
+   - Fix statistics display - was always showing 0 weak keys found
+
 Version 0.05:
    - Protect from a usage error
    - check for the proper ssh host filename
