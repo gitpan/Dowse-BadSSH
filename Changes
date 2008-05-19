@@ -1,4 +1,10 @@
 
+Version 0.08:
+   - Use File::Find for good interactive performance
+   - Also display 'unknown' keys
+   - Add 1024- and 4096-bit RSA key blacklists
+   - Add a simple test script to shut up CPAN::Reporters
+
 Version 0.07:
    - the script wasn't warning about the wrong two combinations of
      1024-bit, 2048-bit, rsa and dsa.  Warn for all of them.  This
