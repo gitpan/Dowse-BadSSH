@@ -1,4 +1,10 @@
 
+Version 0.09:
+   - Don't presume keys that we have no blacklist for are bad without
+     new option --presume-guilty (-G)
+   - Allow keys to be uncommented that were previously commented out
+     with --repair-damage (-u)
+
 Version 0.08:
    - Use File::Find for good interactive performance
    - Also display 'unknown' keys
